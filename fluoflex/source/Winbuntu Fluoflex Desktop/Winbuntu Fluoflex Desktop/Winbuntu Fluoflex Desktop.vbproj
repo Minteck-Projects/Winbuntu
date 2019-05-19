@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{887FEC0A-B298-47BF-A249-A00E678969DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Winbuntu_Fluoflex_Desktop.My.MyApplication</StartupObject>
+    <RootNamespace>Winbuntu_Fluoflex_Desktop</RootNamespace>
+    <AssemblyName>Winbuntu Fluoflex Desktop</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>18.12.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Winbuntu Fluoflex Desktop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Winbuntu Fluoflex Desktop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F9468849F6FFE9A21DBA2BE4DA2AE7AD3AA365FB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Winbuntu Fluoflex Desktop_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apps\Browser.Designer.vb">
+      <DependentUpon>Browser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Browser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\DialogShutdown.Designer.vb">
+      <DependentUpon>DialogShutdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\DialogShutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\EasterEggExplorer.Designer.vb">
+      <DependentUpon>EasterEggExplorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\EasterEggExplorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\Explorer.Designer.vb">
+      <DependentUpon>Explorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Explorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\WallpaperChange.Designer.vb">
+      <DependentUpon>WallpaperChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\WallpaperChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Apps\Notepad.Designer.vb">
+      <DependentUpon>Notepad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Notepad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kernel\SampleMdi.Designer.vb">
+      <DependentUpon>SampleMdi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kernel\SampleMdi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kernel\Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kernel\Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\WindowTest.Designer.vb">
+      <DependentUpon>WindowTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\WindowTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\WindowAbout.Designer.vb">
+      <DependentUpon>WindowAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\WindowAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Apps\Browser.resx">
+      <DependentUpon>Browser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\DialogShutdown.resx">
+      <DependentUpon>DialogShutdown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\EasterEggExplorer.resx">
+      <DependentUpon>EasterEggExplorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Explorer.resx">
+      <DependentUpon>Explorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Notepad.resx">
+      <DependentUpon>Notepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kernel\SampleMdi.resx">
+      <DependentUpon>SampleMdi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kernel\Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WindowTest.resx">
+      <DependentUpon>WindowTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\WindowAbout.resx">
+      <DependentUpon>WindowAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\WallpaperChange.resx">
+      <DependentUpon>WallpaperChange.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Kernel\Winbuntu Fluoflex Desktop_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\.wallpaper1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\.wallpaper2.jpg" />
+    <None Include="Resources\icons8-easter-egg-48.png" />
+    <None Include="Resources\icons8-about-48.png" />
+    <None Include="Resources\icons8-test-tube-48.png" />
+    <None Include="Resources\icons8-internet-48.png" />
+    <None Include="Resources\icons8-journal-48.png" />
+    <None Include="Resources\icons8-settings-48.png" />
+    <None Include="Resources\icons8-shutdown-48.png" />
+    <None Include="Resources\Windows Notify System Generic.wav" />
+    <None Include="Resources\Windows Navigation Start.wav" />
+    <None Include="Resources\logout.wav" />
+    <None Include="Resources\Connect.wav" />
+    <None Include="Resources\shutdown.wav" />
+    <None Include="Resources\new Mail.wav" />
+    <None Include="Resources\Menu popup.wav" />
+    <None Include="Resources\Default.wav" />
+    <None Include="Resources\startup.wav" />
+    <None Include="Resources\Rolling-1.5s-200px.gif" />
+    <None Include="Resources\Dual Ring-0.7s-200px.gif" />
+    <None Include="Resources\1200px-Internet_Explorer_10+11_logo.svg.png" />
+    <None Include="Resources\ubuntu-18.04-default-wallpaper-2.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

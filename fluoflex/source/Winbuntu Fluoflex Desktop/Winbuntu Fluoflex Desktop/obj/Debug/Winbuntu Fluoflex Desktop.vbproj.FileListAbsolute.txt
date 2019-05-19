@@ -1,0 +1,26 @@
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\bin\Debug\Winbuntu Fluoflex Desktop.exe.config
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\bin\Debug\Winbuntu Fluoflex Desktop.exe
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\bin\Debug\Winbuntu Fluoflex Desktop.pdb
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\bin\Debug\Winbuntu Fluoflex Desktop.xml
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.Resources.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.Splash.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.vbproj.GenerateResource.Cache
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.vbproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.exe
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.xml
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.pdb
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.vbprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.Explorer.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.SampleMdi.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.WindowTest.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.WindowAbout.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.DialogShutdown.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\bin\Debug\Winbuntu Fluoflex Desktop.exe.manifest
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\bin\Debug\Winbuntu Fluoflex Desktop.application
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.TrustInfo.xml
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.exe.manifest
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu Fluoflex Desktop.application
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.Notepad.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.Browser.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.WallpaperChange.resources
+C:\Users\Nathan\Documents\Projets\Winbuntu\fluoflex\Winbuntu Fluoflex Desktop\Winbuntu Fluoflex Desktop\obj\Debug\Winbuntu_Fluoflex_Desktop.EasterEggExplorer.resources
