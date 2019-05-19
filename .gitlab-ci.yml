@@ -1,0 +1,4 @@
+job:
+  script:
+    - uname -a
+    - find . -type f -exec md5sum {} \; | md5sum
